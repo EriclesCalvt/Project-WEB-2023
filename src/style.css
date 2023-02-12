@@ -16,12 +16,14 @@ body{
     height: 300px;
     width: 500px;
     border-radius: 30px;
+    opacity: calc(60%);
 }
 #container{
-    height: 250px;
+    height: 330px;
     background-color: white;
     padding: 60px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     /*não quebra linha*/ 
@@ -47,7 +49,8 @@ body{
     border-radius: 50px;
     background-color: #76BFAC;
     cursor: pointer;
-    padding: 10px
+    padding: 10px;
+    font-size: 17px;
 
 }
 #header{
@@ -64,6 +67,7 @@ body{
     justify-content: center;
 }
 .icons{
+   color: #073c3d;
    background-color: #EDF8F7;
    margin-bottom: 40px;
    display: flex;
@@ -120,7 +124,7 @@ footer{
     background-color: #073c3d;
 }
 footer img{
-    height: 40vh;
+    height: 25vh;
 }
 .feet{
     width: 100%;
@@ -162,4 +166,7 @@ footer img{
     padding: 20px 40px;
     font-size: 20px;
     font-weight: bold;
+}
+li{
+    cursor: pointer;
 }
